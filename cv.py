@@ -82,7 +82,7 @@ st.info("""
 -  developing a predictive model to comprehend the aspects impacting client purchasing decisions, which was used to provide business intelligence solutions to resolve company problems and provide a positive customer experience.
 
 """)
-st.info(""" experience retrieving data from a number of websites via the API :
+st.info(""" Projects with API :
 - With the use of rapidAPI i pulled data from linkedin to get the list of data analyst jobs available
 - also use the Zoopla API to fetch the list of available properties for rent and sales in Oxoford, including the running cost of each property
 """)
