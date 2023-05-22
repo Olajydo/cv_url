@@ -16,7 +16,7 @@ I have the ability to use my data skill and zealous actions to provide solutions
 
 """)
 
-with open("yusuf_updated_cv.pdf", "rb") as f:
+with open("Olajide.pdf", "rb") as f:
     PDFbyte=f.read()
 st.download_button(label="Download CV", data=PDFbyte, file_name="yusuf_updated_cv.pdf", mime="application/octet-stream")    
 
