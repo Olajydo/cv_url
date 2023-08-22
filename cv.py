@@ -11,14 +11,13 @@ st.image(image, width=250)
 
 st.markdown('## Summary', unsafe_allow_html = True)
 st.info("""
-Lover of basketball; critical thinker. passionate about using data science, creativity, and problem-solving to make a difference in the real world.
-I have the ability to use my data skill and zealous actions to provide solutions that foster growth in the business fields in which I have had the privilege to work. However, my abilities are not limited to those fields; I am also a quick learner, personable leader with a growth mindset, a great team player, and a good listener. I am competent and can quickly get along with others, present insights, and communicate with a corporate body or individual using my data science skill.
+"I'm a results-driven data scientist passionate about leveraging data science for real-world impact. With a proven track record in diverse industries, I excel in presenting insights, developing KPI dashboards, automating reporting, and conducting data analysis to drive actionable results. A quick learner, collaborative team player, and effective communicator, I'm eager to contribute my expertise to progressive organizations, making a meaningful difference in the industry."
 
 """)
 
-with open("Olajide.pdf", "rb") as f:
+with open("Abraham Olajide Yusuf.pdf", "rb") as f:
     PDFbyte=f.read()
-st.download_button(label="Download CV", data=PDFbyte, file_name="Olajide.pdf", mime="application/octet-stream")    
+st.download_button(label="Download CV", data=PDFbyte, file_name="Abraham Olajide Yusuf.pdf", mime="application/octet-stream")    
 
 
 
@@ -55,35 +54,36 @@ st.write("""
 ## Work and Experiences
 """)
 
-txt2('**Loreon Investment**, Intern, Data Science', 'February, 2022 – July, 2022')
+txt2('**Loreon Investment**, Data Analyst', 'February, 2021 - Present')
 st.info("""
-- Using the MT5 API, I pulled the live data for various time intervals to analyze and share insights on how to apply a strategy for better trading success.
-- Proper documentation and tracking of sales KPIs for business growth were made possible by data that had been collected, cleansed, and preprocessed.
-- utilized Python programming to create Bollinger Bands, support & resistance, and SMA for tactical trading.
-- With this approach created from these several indications, automation was set up to be used frequently for better and more precise Trading.
+- Accomplished a remarkable 70% surge in report adoption by thoroughly revamping and enhancing existing reports. Skillfully harnessed MT5 API and Python-driven data analysis methods, showcasing an exceptional aptitude for data visualization and reporting.
+- Conducted extensive data analysis utilizing Python and cutting-edge BI tools, generating insightful dashboards that uncovered valuable trading patterns, market trends, and portfolio performance. Demonstrated my proficiency in data analysis and visualization for data-driven decision-making.
+- Utilized Python to create essential trading features, such as Bollinger Bands, support & resistance, and SMA, optimizing tactics and substantially boosting profitability. Proved my ability to develop advanced analytical solutions to enhance trading strategies.
+- Spearheaded automation initiatives, streamlining critical processes, reducing manual efforts, and achieving remarkable efficiency gains for the organization. Highlighted my proactive approach in leveraging automation to optimize workflows and boost productivity.
+- Collaborated with a team to provide data engineering expertise, leveraging Airflow, IDE, and ETL techniques to optimize data pipelines for trading and financial analysis at Loreon Investment. Demonstrated my versatility and ability to collaborate in a team environment.
+- Pioneered the development of impactful Business Intelligence dashboards using PowerBI, Qlik, Metabase, and Streamlit, leading to streamlined processes, increased operational efficiency, and exceptional business outcomes. Showcased my skills in data visualization and BI tools, positioning me as a competent data scientist in the financial industry.
+- 
 
 """)
 
 
 txt2('**BCG, Forage**, Data Science and Advance analytics virtual experience program', 'July, 2022 - September, 2022' )
 st.info("""
-- I identified and offered the hypothesis framing for turnover customer in my firm unique ideas to help reduce the customer churn rate.
-- By analyzing the data, insightful information was that was used to explain to the corporate body through visualization how customers' attitudinal characteristics.
-- With the aid of machine learning, I created a model to anticipate customer churn, which helped give the optimal business plan for client retention by giving usable insight. 
+- Completed prestigious Data Science and Analytics Virtual Experience Program with Boston Consulting Group (BCG), showcasing proficiency in Python, Pandas, NumPy, scikit-learn, and TensorFlow for data manipulation, analysis, and machine learning.
+- Developed and implemented advanced machine learning models to predict business outcomes, optimizing strategies for enhanced productivity and profit.
+- Utilized data visualization tools like Matplotlib and Seaborn to create insightful charts and graphs, effectively communicating findings to stakeholders and driving data-informed decisions for business growth. 
 
 """)
 
 txt2('**British Airways**, Data Science and Advance analytics virtual experience program', 'October 2022 - November, 2022')
 st.info("""
--  I used web scraping to get customer reviews from British Airways site using the Beautiful Soup Python package.
--  In order to prevent it from affecting the model's findings, I also cleaned up the text in the data that appeared disorganized. Additionally, I used topic modeling to understand and recognize the issue that was commonly addressed on British Airways websites.
--  Conducted sentiment analysis to find and analyze reviews in order to understand how people feel about British Airways
--  I provided a Microsoft PowerPoint presentation to stakeholders that included my model interpretation to assist them in recognizing crucial customer review-related activities.
--  developing a predictive model to comprehend the aspects impacting client purchasing decisions, which was used to provide business intelligence solutions to resolve company problems and provide a positive customer experience.
+-  Completed Data Science and Advanced Analytics Virtual Experience Program with British Airways, gaining hands-on experience in data analysis, machine learning, and predictive modeling.
+-  Utilized Python, Pandas, NumPy, and scikit-learn to manipulate and analyze large datasets, extracting valuable insights to drive business decisions.
+-  Developed machine learning models to predict customer behavior, optimize flight scheduling, and improve operational efficiency.
+-  Leveraged data visualization tools like Matplotlib and PowerBI to create impactful visualizations, facilitating clear communication of complex findings to stakeholders.
 
 """)
 st.info(""" Projects with API :
-- With the use of rapidAPI i pulled data from linkedin to get the list of data analyst jobs available
 - also use the Zoopla API to fetch the list of available properties for rent and sales in Oxoford, including the running cost of each property
 """)
 st.write("""## Education and Certifications""")
@@ -100,7 +100,6 @@ txt('**Programming**', "Python" )
 txt('**Data processing/wrangling**', '"Sql", "Pandas", NoSql')
 txt('**Machine Learning**', "Scikit-learn")
 txt('**Power BI**', "Visualization")
-
 st.write("""## Social-Media""")
 txt3('**LinkedIn**', "https://www.linkedin.com/in/yusuf-olajide-a59aba238/")
 txt3('**GitHub**', "https://github.com/Olajydo")
